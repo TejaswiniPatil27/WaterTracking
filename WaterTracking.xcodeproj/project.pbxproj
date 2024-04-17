@@ -17,6 +17,17 @@
 		D867B1622BCEDC7000582AC4 /* WaterTrackingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D867B1612BCEDC7000582AC4 /* WaterTrackingTests.swift */; };
 		D867B16C2BCEDC7000582AC4 /* WaterTrackingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D867B16B2BCEDC7000582AC4 /* WaterTrackingUITests.swift */; };
 		D867B16E2BCEDC7000582AC4 /* WaterTrackingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D867B16D2BCEDC7000582AC4 /* WaterTrackingUITestsLaunchTests.swift */; };
+		D867B17F2BCF6FAD00582AC4 /* CommonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D867B17E2BCF6FAD00582AC4 /* CommonClass.swift */; };
+		D867B1812BCF6FDB00582AC4 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D867B1802BCF6FDB00582AC4 /* AppConstants.swift */; };
+		D867B1842BCF81D500582AC4 /* EnterNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D867B1832BCF81D500582AC4 /* EnterNameViewController.swift */; };
+		D867B1862BCF84D500582AC4 /* GenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D867B1852BCF84D500582AC4 /* GenderViewController.swift */; };
+		D867B1882BCFA76800582AC4 /* WeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D867B1872BCFA76800582AC4 /* WeightViewController.swift */; };
+		D867B18A2BCFB55E00582AC4 /* DailyGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D867B1892BCFB55E00582AC4 /* DailyGoalViewController.swift */; };
+		D867B18D2BCFBD9200582AC4 /* DBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D867B18C2BCFBD9200582AC4 /* DBHelper.swift */; };
+		D867B1902BCFBE1D00582AC4 /* MyUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D867B18F2BCFBE1D00582AC4 /* MyUser.swift */; };
+		D867B19B2BCFC7E000582AC4 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D867B1992BCFC7E000582AC4 /* User+CoreDataClass.swift */; };
+		D867B19C2BCFC7E000582AC4 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D867B19A2BCFC7E000582AC4 /* User+CoreDataProperties.swift */; };
+		D867B19F2BD015F800582AC4 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D867B19E2BD015F800582AC4 /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +62,17 @@
 		D867B1672BCEDC7000582AC4 /* WaterTrackingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterTrackingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D867B16B2BCEDC7000582AC4 /* WaterTrackingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterTrackingUITests.swift; sourceTree = "<group>"; };
 		D867B16D2BCEDC7000582AC4 /* WaterTrackingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterTrackingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D867B17E2BCF6FAD00582AC4 /* CommonClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonClass.swift; sourceTree = "<group>"; };
+		D867B1802BCF6FDB00582AC4 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		D867B1832BCF81D500582AC4 /* EnterNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterNameViewController.swift; sourceTree = "<group>"; };
+		D867B1852BCF84D500582AC4 /* GenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderViewController.swift; sourceTree = "<group>"; };
+		D867B1872BCFA76800582AC4 /* WeightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightViewController.swift; sourceTree = "<group>"; };
+		D867B1892BCFB55E00582AC4 /* DailyGoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyGoalViewController.swift; sourceTree = "<group>"; };
+		D867B18C2BCFBD9200582AC4 /* DBHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBHelper.swift; sourceTree = "<group>"; };
+		D867B18F2BCFBE1D00582AC4 /* MyUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUser.swift; sourceTree = "<group>"; };
+		D867B1992BCFC7E000582AC4 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D867B19A2BCFC7E000582AC4 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D867B19E2BD015F800582AC4 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +123,16 @@
 		D867B1462BCEDC6E00582AC4 /* WaterTracking */ = {
 			isa = PBXGroup;
 			children = (
+				D867B19D2BD015E300582AC4 /* Extensions */,
+				D867B1992BCFC7E000582AC4 /* User+CoreDataClass.swift */,
+				D867B19A2BCFC7E000582AC4 /* User+CoreDataProperties.swift */,
+				D867B18E2BCFBE1000582AC4 /* Models */,
+				D867B18B2BCFBD7E00582AC4 /* DBHelper */,
+				D867B1822BCF81AA00582AC4 /* ViewControllers */,
+				D867B17D2BCF6F9C00582AC4 /* Commonclass */,
+				D867B17A2BCF6ED800582AC4 /* AppConstants */,
 				D867B1472BCEDC6E00582AC4 /* AppDelegate.swift */,
 				D867B1492BCEDC6F00582AC4 /* SceneDelegate.swift */,
-				D867B14B2BCEDC6F00582AC4 /* ViewController.swift */,
 				D867B14D2BCEDC6F00582AC4 /* Main.storyboard */,
 				D867B1532BCEDC7000582AC4 /* Assets.xcassets */,
 				D867B1552BCEDC7000582AC4 /* LaunchScreen.storyboard */,
@@ -128,6 +157,58 @@
 				D867B16D2BCEDC7000582AC4 /* WaterTrackingUITestsLaunchTests.swift */,
 			);
 			path = WaterTrackingUITests;
+			sourceTree = "<group>";
+		};
+		D867B17A2BCF6ED800582AC4 /* AppConstants */ = {
+			isa = PBXGroup;
+			children = (
+				D867B1802BCF6FDB00582AC4 /* AppConstants.swift */,
+			);
+			path = AppConstants;
+			sourceTree = "<group>";
+		};
+		D867B17D2BCF6F9C00582AC4 /* Commonclass */ = {
+			isa = PBXGroup;
+			children = (
+				D867B17E2BCF6FAD00582AC4 /* CommonClass.swift */,
+			);
+			path = Commonclass;
+			sourceTree = "<group>";
+		};
+		D867B1822BCF81AA00582AC4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D867B14B2BCEDC6F00582AC4 /* ViewController.swift */,
+				D867B1832BCF81D500582AC4 /* EnterNameViewController.swift */,
+				D867B1852BCF84D500582AC4 /* GenderViewController.swift */,
+				D867B1872BCFA76800582AC4 /* WeightViewController.swift */,
+				D867B1892BCFB55E00582AC4 /* DailyGoalViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D867B18B2BCFBD7E00582AC4 /* DBHelper */ = {
+			isa = PBXGroup;
+			children = (
+				D867B18C2BCFBD9200582AC4 /* DBHelper.swift */,
+			);
+			path = DBHelper;
+			sourceTree = "<group>";
+		};
+		D867B18E2BCFBE1000582AC4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D867B18F2BCFBE1D00582AC4 /* MyUser.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D867B19D2BD015E300582AC4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D867B19E2BD015F800582AC4 /* Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,10 +342,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D867B19F2BD015F800582AC4 /* Extension.swift in Sources */,
+				D867B18D2BCFBD9200582AC4 /* DBHelper.swift in Sources */,
+				D867B1882BCFA76800582AC4 /* WeightViewController.swift in Sources */,
 				D867B1522BCEDC6F00582AC4 /* WaterTracking.xcdatamodeld in Sources */,
+				D867B19B2BCFC7E000582AC4 /* User+CoreDataClass.swift in Sources */,
+				D867B1862BCF84D500582AC4 /* GenderViewController.swift in Sources */,
+				D867B1812BCF6FDB00582AC4 /* AppConstants.swift in Sources */,
 				D867B14C2BCEDC6F00582AC4 /* ViewController.swift in Sources */,
+				D867B18A2BCFB55E00582AC4 /* DailyGoalViewController.swift in Sources */,
+				D867B1842BCF81D500582AC4 /* EnterNameViewController.swift in Sources */,
+				D867B1902BCFBE1D00582AC4 /* MyUser.swift in Sources */,
+				D867B19C2BCFC7E000582AC4 /* User+CoreDataProperties.swift in Sources */,
 				D867B1482BCEDC6E00582AC4 /* AppDelegate.swift in Sources */,
 				D867B14A2BCEDC6F00582AC4 /* SceneDelegate.swift in Sources */,
+				D867B17F2BCF6FAD00582AC4 /* CommonClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
